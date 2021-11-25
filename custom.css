@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+
+body,
+html {
+  height: 100%;
+  margin: 0;
+}
+
+.img-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+@media (min-width: 1000px) {
+  .desk {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 35vw;
+  }
+
+  .head {
+    position: absolute;
+    color: white;
+    font-family: Nunito;
+    font-size: 10vw;
+    text-align: center;
+    margin-top: -25%;
+  }
+
+  .subhead {
+    color: white;
+    font-family: Nunito;
+    font-size: 2vw;
+    text-align: center;
+    margin-bottom: -30%;
+  }
+
+  .logo {
+    position: absolute;
+    text-align: center;
+    margin-bottom: -40%;
+    width: 7vw;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .desk {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 70vw;
+  }
+
+  .head {
+    position: absolute;
+    color: white;
+    font-family: Nunito;
+    font-size: 15vw;
+    text-align: center;
+    margin-top: 0;
+    margin-top: -50%; 
+  }
+
+  .subhead {
+    position: absolute;
+    color: white;
+    font-family: Nunito;
+    font-size: 3.5vw;
+    text-align: center;
+    margin-bottom: -60%;
+  }
+
+  .logo {
+    position: absolute;
+    text-align: center;
+    margin-bottom: -85%;
+    width: 15vw;
+  }
+}
